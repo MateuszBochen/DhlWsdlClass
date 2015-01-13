@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class PnpResponse
 {
@@ -36,7 +36,7 @@ class PnpResponse
 
     /**
      * @param string $fileName
-     * @return \DhlWsdlClass\PnpResponse
+     * @return \Lib\PnpResponse
      */
     public function setFileName($fileName)
     {
@@ -54,7 +54,7 @@ class PnpResponse
 
     /**
      * @param string $fileData
-     * @return \DhlWsdlClass\PnpResponse
+     * @return \Lib\PnpResponse
      */
     public function setFileData($fileData)
     {
@@ -72,7 +72,7 @@ class PnpResponse
 
     /**
      * @param string $fileMimeType
-     * @return \DhlWsdlClass\PnpResponse
+     * @return \Lib\PnpResponse
      */
     public function setFileMimeType($fileMimeType)
     {

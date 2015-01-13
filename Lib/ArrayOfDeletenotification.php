@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ArrayOfDeletenotification
 {
@@ -28,7 +28,7 @@ class ArrayOfDeletenotification
 
     /**
      * @param DeleteNotification[] $item
-     * @return \DhlWsdlClass\ArrayOfDeletenotification
+     * @return \Lib\ArrayOfDeletenotification
      */
     public function setItem(array $item)
     {

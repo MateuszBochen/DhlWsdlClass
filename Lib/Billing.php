@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class Billing
 {
@@ -41,7 +41,7 @@ class Billing
 
     /**
      * @param string $shippingPaymentType
-     * @return \DhlWsdlClass\Billing
+     * @return \Lib\Billing
      */
     public function setShippingPaymentType($shippingPaymentType)
     {
@@ -59,7 +59,7 @@ class Billing
 
     /**
      * @param int $billingAccountNumber
-     * @return \DhlWsdlClass\Billing
+     * @return \Lib\Billing
      */
     public function setBillingAccountNumber($billingAccountNumber)
     {
@@ -77,7 +77,7 @@ class Billing
 
     /**
      * @param string $paymentType
-     * @return \DhlWsdlClass\Billing
+     * @return \Lib\Billing
      */
     public function setPaymentType($paymentType)
     {
@@ -95,7 +95,7 @@ class Billing
 
     /**
      * @param string $costsCenter
-     * @return \DhlWsdlClass\Billing
+     * @return \Lib\Billing
      */
     public function setCostsCenter($costsCenter)
     {

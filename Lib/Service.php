@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class Service
 {
@@ -41,7 +41,7 @@ class Service
 
     /**
      * @param string $serviceType
-     * @return \DhlWsdlClass\Service
+     * @return \Lib\Service
      */
     public function setServiceType($serviceType)
     {
@@ -59,7 +59,7 @@ class Service
 
     /**
      * @param float $serviceValue
-     * @return \DhlWsdlClass\Service
+     * @return \Lib\Service
      */
     public function setServiceValue($serviceValue)
     {
@@ -77,7 +77,7 @@ class Service
 
     /**
      * @param string $textInstruction
-     * @return \DhlWsdlClass\Service
+     * @return \Lib\Service
      */
     public function setTextInstruction($textInstruction)
     {
@@ -95,7 +95,7 @@ class Service
 
     /**
      * @param string $collectOnDeliveryForm
-     * @return \DhlWsdlClass\Service
+     * @return \Lib\Service
      */
     public function setCollectOnDeliveryForm($collectOnDeliveryForm)
     {

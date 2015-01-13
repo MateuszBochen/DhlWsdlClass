@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ReceiverAddress
 {
@@ -71,7 +71,7 @@ class ReceiverAddress
 
     /**
      * @param string $country
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setCountry($country)
     {
@@ -89,7 +89,7 @@ class ReceiverAddress
 
     /**
      * @param boolean $isPackstation
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setIsPackstation($isPackstation)
     {
@@ -107,7 +107,7 @@ class ReceiverAddress
 
     /**
      * @param boolean $isPostfiliale
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setIsPostfiliale($isPostfiliale)
     {
@@ -125,7 +125,7 @@ class ReceiverAddress
 
     /**
      * @param string $postnummer
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setPostnummer($postnummer)
     {
@@ -143,7 +143,7 @@ class ReceiverAddress
 
     /**
      * @param string $name
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setName($name)
     {
@@ -161,7 +161,7 @@ class ReceiverAddress
 
     /**
      * @param string $postalCode
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setPostalCode($postalCode)
     {
@@ -179,7 +179,7 @@ class ReceiverAddress
 
     /**
      * @param string $city
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setCity($city)
     {
@@ -197,7 +197,7 @@ class ReceiverAddress
 
     /**
      * @param string $street
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setStreet($street)
     {
@@ -215,7 +215,7 @@ class ReceiverAddress
 
     /**
      * @param string $houseNumber
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setHouseNumber($houseNumber)
     {
@@ -233,7 +233,7 @@ class ReceiverAddress
 
     /**
      * @param string $apartmentNumber
-     * @return \DhlWsdlClass\ReceiverAddress
+     * @return \Lib\ReceiverAddress
      */
     public function setApartmentNumber($apartmentNumber)
     {

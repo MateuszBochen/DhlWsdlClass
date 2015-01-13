@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class getLabelsResponse
 {
@@ -28,7 +28,7 @@ class getLabelsResponse
 
     /**
      * @param ArrayOfItemtoprintresponse $getLabelsResult
-     * @return \DhlWsdlClass\getLabelsResponse
+     * @return \Lib\getLabelsResponse
      */
     public function setGetLabelsResult($getLabelsResult)
     {

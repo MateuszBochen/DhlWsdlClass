@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class PaymentData
 {
@@ -41,7 +41,7 @@ class PaymentData
 
     /**
      * @param string $paymentMethod
-     * @return \DhlWsdlClass\PaymentData
+     * @return \Lib\PaymentData
      */
     public function setPaymentMethod($paymentMethod)
     {
@@ -59,7 +59,7 @@ class PaymentData
 
     /**
      * @param string $payerType
-     * @return \DhlWsdlClass\PaymentData
+     * @return \Lib\PaymentData
      */
     public function setPayerType($payerType)
     {
@@ -77,7 +77,7 @@ class PaymentData
 
     /**
      * @param string $accountNumber
-     * @return \DhlWsdlClass\PaymentData
+     * @return \Lib\PaymentData
      */
     public function setAccountNumber($accountNumber)
     {
@@ -95,7 +95,7 @@ class PaymentData
 
     /**
      * @param string $costsCenter
-     * @return \DhlWsdlClass\PaymentData
+     * @return \Lib\PaymentData
      */
     public function setCostsCenter($costsCenter)
     {

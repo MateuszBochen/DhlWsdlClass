@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ShipmentBasicData
 {
@@ -46,7 +46,7 @@ class ShipmentBasicData
 
     /**
      * @param string $shipmentId
-     * @return \DhlWsdlClass\ShipmentBasicData
+     * @return \Lib\ShipmentBasicData
      */
     public function setShipmentId($shipmentId)
     {
@@ -64,7 +64,7 @@ class ShipmentBasicData
 
     /**
      * @param string $created
-     * @return \DhlWsdlClass\ShipmentBasicData
+     * @return \Lib\ShipmentBasicData
      */
     public function setCreated($created)
     {
@@ -82,7 +82,7 @@ class ShipmentBasicData
 
     /**
      * @param AddressData $shipper
-     * @return \DhlWsdlClass\ShipmentBasicData
+     * @return \Lib\ShipmentBasicData
      */
     public function setShipper($shipper)
     {
@@ -100,7 +100,7 @@ class ShipmentBasicData
 
     /**
      * @param AddressData $receiver
-     * @return \DhlWsdlClass\ShipmentBasicData
+     * @return \Lib\ShipmentBasicData
      */
     public function setReceiver($receiver)
     {
@@ -118,7 +118,7 @@ class ShipmentBasicData
 
     /**
      * @param string $orderStatus
-     * @return \DhlWsdlClass\ShipmentBasicData
+     * @return \Lib\ShipmentBasicData
      */
     public function setOrderStatus($orderStatus)
     {

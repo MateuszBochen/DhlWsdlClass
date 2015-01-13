@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ItemToPrintResponse
 {
@@ -46,7 +46,7 @@ class ItemToPrintResponse
 
     /**
      * @param string $shipmentId
-     * @return \DhlWsdlClass\ItemToPrintResponse
+     * @return \Lib\ItemToPrintResponse
      */
     public function setShipmentId($shipmentId)
     {
@@ -64,7 +64,7 @@ class ItemToPrintResponse
 
     /**
      * @param string $labelType
-     * @return \DhlWsdlClass\ItemToPrintResponse
+     * @return \Lib\ItemToPrintResponse
      */
     public function setLabelType($labelType)
     {
@@ -82,7 +82,7 @@ class ItemToPrintResponse
 
     /**
      * @param string $labelName
-     * @return \DhlWsdlClass\ItemToPrintResponse
+     * @return \Lib\ItemToPrintResponse
      */
     public function setLabelName($labelName)
     {
@@ -100,7 +100,7 @@ class ItemToPrintResponse
 
     /**
      * @param string $labelData
-     * @return \DhlWsdlClass\ItemToPrintResponse
+     * @return \Lib\ItemToPrintResponse
      */
     public function setLabelData($labelData)
     {
@@ -118,7 +118,7 @@ class ItemToPrintResponse
 
     /**
      * @param string $labelMimeType
-     * @return \DhlWsdlClass\ItemToPrintResponse
+     * @return \Lib\ItemToPrintResponse
      */
     public function setLabelMimeType($labelMimeType)
     {

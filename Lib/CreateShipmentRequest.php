@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class CreateShipmentRequest
 {
@@ -51,7 +51,7 @@ class CreateShipmentRequest
 
     /**
      * @param ShipmentInfo $shipmentInfo
-     * @return \DhlWsdlClass\CreateShipmentRequest
+     * @return \Lib\CreateShipmentRequest
      */
     public function setShipmentInfo($shipmentInfo)
     {
@@ -69,7 +69,7 @@ class CreateShipmentRequest
 
     /**
      * @param string $content
-     * @return \DhlWsdlClass\CreateShipmentRequest
+     * @return \Lib\CreateShipmentRequest
      */
     public function setContent($content)
     {
@@ -87,7 +87,7 @@ class CreateShipmentRequest
 
     /**
      * @param string $comment
-     * @return \DhlWsdlClass\CreateShipmentRequest
+     * @return \Lib\CreateShipmentRequest
      */
     public function setComment($comment)
     {
@@ -105,7 +105,7 @@ class CreateShipmentRequest
 
     /**
      * @param string $reference
-     * @return \DhlWsdlClass\CreateShipmentRequest
+     * @return \Lib\CreateShipmentRequest
      */
     public function setReference($reference)
     {
@@ -123,7 +123,7 @@ class CreateShipmentRequest
 
     /**
      * @param Ship $ship
-     * @return \DhlWsdlClass\CreateShipmentRequest
+     * @return \Lib\CreateShipmentRequest
      */
     public function setShip($ship)
     {
@@ -141,7 +141,7 @@ class CreateShipmentRequest
 
     /**
      * @param ArrayOfPackage $pieceList
-     * @return \DhlWsdlClass\CreateShipmentRequest
+     * @return \Lib\CreateShipmentRequest
      */
     public function setPieceList($pieceList)
     {

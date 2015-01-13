@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class getMyShipmentsCountResponse
 {
@@ -28,7 +28,7 @@ class getMyShipmentsCountResponse
 
     /**
      * @param int $getMyShipmentsCountResult
-     * @return \DhlWsdlClass\getMyShipmentsCountResponse
+     * @return \Lib\getMyShipmentsCountResponse
      */
     public function setGetMyShipmentsCountResult($getMyShipmentsCountResult)
     {

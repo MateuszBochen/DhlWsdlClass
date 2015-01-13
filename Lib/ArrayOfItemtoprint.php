@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ArrayOfItemtoprint
 {
@@ -28,7 +28,7 @@ class ArrayOfItemtoprint
 
     /**
      * @param ItemToPrint[] $item
-     * @return \DhlWsdlClass\ArrayOfItemtoprint
+     * @return \Lib\ArrayOfItemtoprint
      */
     public function setItem(array $item)
     {

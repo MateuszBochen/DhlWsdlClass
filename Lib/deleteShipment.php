@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class deleteShipment
 {
@@ -35,7 +35,7 @@ class deleteShipment
 
     /**
      * @param AuthData $authData
-     * @return \DhlWsdlClass\deleteShipment
+     * @return \Lib\deleteShipment
      */
     public function setAuthData($authData)
     {
@@ -53,7 +53,7 @@ class deleteShipment
 
     /**
      * @param DeleteShipmentRequest $shipment
-     * @return \DhlWsdlClass\deleteShipment
+     * @return \Lib\deleteShipment
      */
     public function setShipment($shipment)
     {

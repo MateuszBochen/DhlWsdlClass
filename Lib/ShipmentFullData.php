@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ShipmentFullData
 {
@@ -93,7 +93,7 @@ class ShipmentFullData
 
     /**
      * @param AddressData $shipper
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setShipper($shipper)
     {
@@ -111,7 +111,7 @@ class ShipmentFullData
 
     /**
      * @param ReceiverAddressData $receiver
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setReceiver($receiver)
     {
@@ -129,7 +129,7 @@ class ShipmentFullData
 
     /**
      * @param NeighbourAddress $neighbour
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setNeighbour($neighbour)
     {
@@ -147,7 +147,7 @@ class ShipmentFullData
 
     /**
      * @param ArrayOfPiecedefinition $pieceList
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setPieceList($pieceList)
     {
@@ -165,7 +165,7 @@ class ShipmentFullData
 
     /**
      * @param PaymentData $payment
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setPayment($payment)
     {
@@ -183,7 +183,7 @@ class ShipmentFullData
 
     /**
      * @param ServiceDefinition $service
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setService($service)
     {
@@ -201,7 +201,7 @@ class ShipmentFullData
 
     /**
      * @param string $shipmentDate
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setShipmentDate($shipmentDate)
     {
@@ -219,7 +219,7 @@ class ShipmentFullData
 
     /**
      * @param boolean $skipRestrictionCheck
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setSkipRestrictionCheck($skipRestrictionCheck)
     {
@@ -237,7 +237,7 @@ class ShipmentFullData
 
     /**
      * @param string $comment
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setComment($comment)
     {
@@ -255,7 +255,7 @@ class ShipmentFullData
 
     /**
      * @param string $content
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setContent($content)
     {
@@ -273,7 +273,7 @@ class ShipmentFullData
 
     /**
      * @param string $reference
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setReference($reference)
     {
@@ -291,7 +291,7 @@ class ShipmentFullData
 
     /**
      * @param int $shipmentId
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setShipmentId($shipmentId)
     {
@@ -309,7 +309,7 @@ class ShipmentFullData
 
     /**
      * @param string $created
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setCreated($created)
     {
@@ -327,7 +327,7 @@ class ShipmentFullData
 
     /**
      * @param string $orderStatus
-     * @return \DhlWsdlClass\ShipmentFullData
+     * @return \Lib\ShipmentFullData
      */
     public function setOrderStatus($orderStatus)
     {

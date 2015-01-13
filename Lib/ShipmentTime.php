@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ShipmentTime
 {
@@ -36,7 +36,7 @@ class ShipmentTime
 
     /**
      * @param string $shipmentDate
-     * @return \DhlWsdlClass\ShipmentTime
+     * @return \Lib\ShipmentTime
      */
     public function setShipmentDate($shipmentDate)
     {
@@ -54,7 +54,7 @@ class ShipmentTime
 
     /**
      * @param string $shipmentStartHour
-     * @return \DhlWsdlClass\ShipmentTime
+     * @return \Lib\ShipmentTime
      */
     public function setShipmentStartHour($shipmentStartHour)
     {
@@ -72,7 +72,7 @@ class ShipmentTime
 
     /**
      * @param string $shipmentEndHour
-     * @return \DhlWsdlClass\ShipmentTime
+     * @return \Lib\ShipmentTime
      */
     public function setShipmentEndHour($shipmentEndHour)
     {

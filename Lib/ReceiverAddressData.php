@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ReceiverAddressData
 {
@@ -86,7 +86,7 @@ class ReceiverAddressData
 
     /**
      * @param string $country
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setCountry($country)
     {
@@ -104,7 +104,7 @@ class ReceiverAddressData
 
     /**
      * @param boolean $isPackstation
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setIsPackstation($isPackstation)
     {
@@ -122,7 +122,7 @@ class ReceiverAddressData
 
     /**
      * @param boolean $isPostfiliale
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setIsPostfiliale($isPostfiliale)
     {
@@ -140,7 +140,7 @@ class ReceiverAddressData
 
     /**
      * @param string $postnummer
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setPostnummer($postnummer)
     {
@@ -158,7 +158,7 @@ class ReceiverAddressData
 
     /**
      * @param string $name
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setName($name)
     {
@@ -176,7 +176,7 @@ class ReceiverAddressData
 
     /**
      * @param string $postalCode
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setPostalCode($postalCode)
     {
@@ -194,7 +194,7 @@ class ReceiverAddressData
 
     /**
      * @param string $city
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setCity($city)
     {
@@ -212,7 +212,7 @@ class ReceiverAddressData
 
     /**
      * @param string $street
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setStreet($street)
     {
@@ -230,7 +230,7 @@ class ReceiverAddressData
 
     /**
      * @param string $houseNumber
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setHouseNumber($houseNumber)
     {
@@ -248,7 +248,7 @@ class ReceiverAddressData
 
     /**
      * @param string $apartmentNumber
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setApartmentNumber($apartmentNumber)
     {
@@ -266,7 +266,7 @@ class ReceiverAddressData
 
     /**
      * @param string $contactPerson
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setContactPerson($contactPerson)
     {
@@ -284,7 +284,7 @@ class ReceiverAddressData
 
     /**
      * @param string $contactPhone
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setContactPhone($contactPhone)
     {
@@ -302,7 +302,7 @@ class ReceiverAddressData
 
     /**
      * @param string $contactEmail
-     * @return \DhlWsdlClass\ReceiverAddressData
+     * @return \Lib\ReceiverAddressData
      */
     public function setContactEmail($contactEmail)
     {

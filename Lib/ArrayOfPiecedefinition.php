@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ArrayOfPiecedefinition
 {
@@ -28,7 +28,7 @@ class ArrayOfPiecedefinition
 
     /**
      * @param PieceDefinition[] $item
-     * @return \DhlWsdlClass\ArrayOfPiecedefinition
+     * @return \Lib\ArrayOfPiecedefinition
      */
     public function setItem(array $item)
     {

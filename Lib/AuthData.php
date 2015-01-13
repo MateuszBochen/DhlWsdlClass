@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class AuthData
 {
@@ -31,7 +31,7 @@ class AuthData
 
     /**
      * @param string $username
-     * @return \DhlWsdlClass\AuthData
+     * @return \Lib\AuthData
      */
     public function setUsername($username)
     {
@@ -49,7 +49,7 @@ class AuthData
 
     /**
      * @param string $password
-     * @return \DhlWsdlClass\AuthData
+     * @return \Lib\AuthData
      */
     public function setPassword($password)
     {

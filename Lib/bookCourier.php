@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class bookCourier
 {
@@ -70,7 +70,7 @@ class bookCourier
 
     /**
      * @param AuthData $authData
-     * @return \DhlWsdlClass\bookCourier
+     * @return \Lib\bookCourier
      */
     public function setAuthData($authData)
     {
@@ -88,7 +88,7 @@ class bookCourier
 
     /**
      * @param string $pickupDate
-     * @return \DhlWsdlClass\bookCourier
+     * @return \Lib\bookCourier
      */
     public function setPickupDate($pickupDate)
     {
@@ -106,7 +106,7 @@ class bookCourier
 
     /**
      * @param string $pickupTimeFrom
-     * @return \DhlWsdlClass\bookCourier
+     * @return \Lib\bookCourier
      */
     public function setPickupTimeFrom($pickupTimeFrom)
     {
@@ -124,7 +124,7 @@ class bookCourier
 
     /**
      * @param string $pickupTimeTo
-     * @return \DhlWsdlClass\bookCourier
+     * @return \Lib\bookCourier
      */
     public function setPickupTimeTo($pickupTimeTo)
     {
@@ -142,7 +142,7 @@ class bookCourier
 
     /**
      * @param string $additionalInfo
-     * @return \DhlWsdlClass\bookCourier
+     * @return \Lib\bookCourier
      */
     public function setAdditionalInfo($additionalInfo)
     {
@@ -160,7 +160,7 @@ class bookCourier
 
     /**
      * @param ArrayOfString $shipmentIdList
-     * @return \DhlWsdlClass\bookCourier
+     * @return \Lib\bookCourier
      */
     public function setShipmentIdList($shipmentIdList)
     {
@@ -178,7 +178,7 @@ class bookCourier
 
     /**
      * @param ShipmentOrderInfo $shipmentOrderInfo
-     * @return \DhlWsdlClass\bookCourier
+     * @return \Lib\bookCourier
      */
     public function setShipmentOrderInfo($shipmentOrderInfo)
     {

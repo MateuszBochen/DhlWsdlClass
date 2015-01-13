@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class AddressData
 {
@@ -66,7 +66,7 @@ class AddressData
 
     /**
      * @param string $name
-     * @return \DhlWsdlClass\AddressData
+     * @return \Lib\AddressData
      */
     public function setName($name)
     {
@@ -84,7 +84,7 @@ class AddressData
 
     /**
      * @param string $postalCode
-     * @return \DhlWsdlClass\AddressData
+     * @return \Lib\AddressData
      */
     public function setPostalCode($postalCode)
     {
@@ -102,7 +102,7 @@ class AddressData
 
     /**
      * @param string $city
-     * @return \DhlWsdlClass\AddressData
+     * @return \Lib\AddressData
      */
     public function setCity($city)
     {
@@ -120,7 +120,7 @@ class AddressData
 
     /**
      * @param string $street
-     * @return \DhlWsdlClass\AddressData
+     * @return \Lib\AddressData
      */
     public function setStreet($street)
     {
@@ -138,7 +138,7 @@ class AddressData
 
     /**
      * @param string $houseNumber
-     * @return \DhlWsdlClass\AddressData
+     * @return \Lib\AddressData
      */
     public function setHouseNumber($houseNumber)
     {
@@ -156,7 +156,7 @@ class AddressData
 
     /**
      * @param string $apartmentNumber
-     * @return \DhlWsdlClass\AddressData
+     * @return \Lib\AddressData
      */
     public function setApartmentNumber($apartmentNumber)
     {
@@ -174,7 +174,7 @@ class AddressData
 
     /**
      * @param string $contactPerson
-     * @return \DhlWsdlClass\AddressData
+     * @return \Lib\AddressData
      */
     public function setContactPerson($contactPerson)
     {
@@ -192,7 +192,7 @@ class AddressData
 
     /**
      * @param string $contactPhone
-     * @return \DhlWsdlClass\AddressData
+     * @return \Lib\AddressData
      */
     public function setContactPhone($contactPhone)
     {
@@ -210,7 +210,7 @@ class AddressData
 
     /**
      * @param string $contactEmail
-     * @return \DhlWsdlClass\AddressData
+     * @return \Lib\AddressData
      */
     public function setContactEmail($contactEmail)
     {

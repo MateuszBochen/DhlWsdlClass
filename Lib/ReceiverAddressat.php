@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ReceiverAddressat
 {
@@ -36,7 +36,7 @@ class ReceiverAddressat
 
     /**
      * @param PreavisoContact $preaviso
-     * @return \DhlWsdlClass\ReceiverAddressat
+     * @return \Lib\ReceiverAddressat
      */
     public function setPreaviso($preaviso)
     {
@@ -54,7 +54,7 @@ class ReceiverAddressat
 
     /**
      * @param PreavisoContact $contact
-     * @return \DhlWsdlClass\ReceiverAddressat
+     * @return \Lib\ReceiverAddressat
      */
     public function setContact($contact)
     {
@@ -72,7 +72,7 @@ class ReceiverAddressat
 
     /**
      * @param ReceiverAddress $address
-     * @return \DhlWsdlClass\ReceiverAddressat
+     * @return \Lib\ReceiverAddressat
      */
     public function setAddress($address)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ShipmentInfo
 {
@@ -51,7 +51,7 @@ class ShipmentInfo
 
     /**
      * @param string $dropOffType
-     * @return \DhlWsdlClass\ShipmentInfo
+     * @return \Lib\ShipmentInfo
      */
     public function setDropOffType($dropOffType)
     {
@@ -69,7 +69,7 @@ class ShipmentInfo
 
     /**
      * @param string $serviceType
-     * @return \DhlWsdlClass\ShipmentInfo
+     * @return \Lib\ShipmentInfo
      */
     public function setServiceType($serviceType)
     {
@@ -87,7 +87,7 @@ class ShipmentInfo
 
     /**
      * @param Billing $billing
-     * @return \DhlWsdlClass\ShipmentInfo
+     * @return \Lib\ShipmentInfo
      */
     public function setBilling($billing)
     {
@@ -105,7 +105,7 @@ class ShipmentInfo
 
     /**
      * @param ArrayOfService $specialServices
-     * @return \DhlWsdlClass\ShipmentInfo
+     * @return \Lib\ShipmentInfo
      */
     public function setSpecialServices($specialServices)
     {
@@ -123,7 +123,7 @@ class ShipmentInfo
 
     /**
      * @param ShipmentTime $shipmentTime
-     * @return \DhlWsdlClass\ShipmentInfo
+     * @return \Lib\ShipmentInfo
      */
     public function setShipmentTime($shipmentTime)
     {
@@ -141,7 +141,7 @@ class ShipmentInfo
 
     /**
      * @param string $labelType
-     * @return \DhlWsdlClass\ShipmentInfo
+     * @return \Lib\ShipmentInfo
      */
     public function setLabelType($labelType)
     {

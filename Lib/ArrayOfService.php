@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ArrayOfService
 {
@@ -28,7 +28,7 @@ class ArrayOfService
 
     /**
      * @param Service[] $item
-     * @return \DhlWsdlClass\ArrayOfService
+     * @return \Lib\ArrayOfService
      */
     public function setItem(array $item)
     {

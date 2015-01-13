@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class DeleteNotification
 {
@@ -36,7 +36,7 @@ class DeleteNotification
 
     /**
      * @param string $id
-     * @return \DhlWsdlClass\DeleteNotification
+     * @return \Lib\DeleteNotification
      */
     public function setId($id)
     {
@@ -54,7 +54,7 @@ class DeleteNotification
 
     /**
      * @param boolean $result
-     * @return \DhlWsdlClass\DeleteNotification
+     * @return \Lib\DeleteNotification
      */
     public function setResult($result)
     {
@@ -72,7 +72,7 @@ class DeleteNotification
 
     /**
      * @param string $error
-     * @return \DhlWsdlClass\DeleteNotification
+     * @return \Lib\DeleteNotification
      */
     public function setError($error)
     {

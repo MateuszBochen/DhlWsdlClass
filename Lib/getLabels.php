@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class getLabels
 {
@@ -35,7 +35,7 @@ class getLabels
 
     /**
      * @param AuthData $authData
-     * @return \DhlWsdlClass\getLabels
+     * @return \Lib\getLabels
      */
     public function setAuthData($authData)
     {
@@ -53,7 +53,7 @@ class getLabels
 
     /**
      * @param ArrayOfItemtoprint $itemsToPrint
-     * @return \DhlWsdlClass\getLabels
+     * @return \Lib\getLabels
      */
     public function setItemsToPrint($itemsToPrint)
     {

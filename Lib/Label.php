@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class Label
 {
@@ -36,7 +36,7 @@ class Label
 
     /**
      * @param string $labelType
-     * @return \DhlWsdlClass\Label
+     * @return \Lib\Label
      */
     public function setLabelType($labelType)
     {
@@ -54,7 +54,7 @@ class Label
 
     /**
      * @param string $labelFormat
-     * @return \DhlWsdlClass\Label
+     * @return \Lib\Label
      */
     public function setLabelFormat($labelFormat)
     {
@@ -72,7 +72,7 @@ class Label
 
     /**
      * @param string $labelContent
-     * @return \DhlWsdlClass\Label
+     * @return \Lib\Label
      */
     public function setLabelContent($labelContent)
     {

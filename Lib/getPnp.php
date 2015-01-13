@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class getPnp
 {
@@ -28,7 +28,7 @@ class getPnp
 
     /**
      * @param PnpRequest $pnpRequest
-     * @return \DhlWsdlClass\getPnp
+     * @return \Lib\getPnp
      */
     public function setPnpRequest($pnpRequest)
     {

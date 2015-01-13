@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class getTrackAndTraceInfo
 {
@@ -35,7 +35,7 @@ class getTrackAndTraceInfo
 
     /**
      * @param AuthData $authData
-     * @return \DhlWsdlClass\getTrackAndTraceInfo
+     * @return \Lib\getTrackAndTraceInfo
      */
     public function setAuthData($authData)
     {
@@ -53,7 +53,7 @@ class getTrackAndTraceInfo
 
     /**
      * @param string $shipmentId
-     * @return \DhlWsdlClass\getTrackAndTraceInfo
+     * @return \Lib\getTrackAndTraceInfo
      */
     public function setShipmentId($shipmentId)
     {

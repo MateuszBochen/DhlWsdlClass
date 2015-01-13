@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class Address
 {
@@ -51,7 +51,7 @@ class Address
 
     /**
      * @param string $name
-     * @return \DhlWsdlClass\Address
+     * @return \Lib\Address
      */
     public function setName($name)
     {
@@ -69,7 +69,7 @@ class Address
 
     /**
      * @param string $postalCode
-     * @return \DhlWsdlClass\Address
+     * @return \Lib\Address
      */
     public function setPostalCode($postalCode)
     {
@@ -87,7 +87,7 @@ class Address
 
     /**
      * @param string $city
-     * @return \DhlWsdlClass\Address
+     * @return \Lib\Address
      */
     public function setCity($city)
     {
@@ -105,7 +105,7 @@ class Address
 
     /**
      * @param string $street
-     * @return \DhlWsdlClass\Address
+     * @return \Lib\Address
      */
     public function setStreet($street)
     {
@@ -123,7 +123,7 @@ class Address
 
     /**
      * @param string $houseNumber
-     * @return \DhlWsdlClass\Address
+     * @return \Lib\Address
      */
     public function setHouseNumber($houseNumber)
     {
@@ -141,7 +141,7 @@ class Address
 
     /**
      * @param string $apartmentNumber
-     * @return \DhlWsdlClass\Address
+     * @return \Lib\Address
      */
     public function setApartmentNumber($apartmentNumber)
     {

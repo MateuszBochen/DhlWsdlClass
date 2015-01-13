@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class DeleteShipmentRequest
 {
@@ -31,7 +31,7 @@ class DeleteShipmentRequest
 
     /**
      * @param string $shipmentIdentificationNumber
-     * @return \DhlWsdlClass\DeleteShipmentRequest
+     * @return \Lib\DeleteShipmentRequest
      */
     public function setShipmentIdentificationNumber($shipmentIdentificationNumber)
     {
@@ -49,7 +49,7 @@ class DeleteShipmentRequest
 
     /**
      * @param string $dispatchIdentificationNumber
-     * @return \DhlWsdlClass\DeleteShipmentRequest
+     * @return \Lib\DeleteShipmentRequest
      */
     public function setDispatchIdentificationNumber($dispatchIdentificationNumber)
     {

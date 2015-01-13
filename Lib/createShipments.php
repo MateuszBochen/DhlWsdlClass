@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class createShipments
 {
@@ -35,7 +35,7 @@ class createShipments
 
     /**
      * @param AuthData $authData
-     * @return \DhlWsdlClass\createShipments
+     * @return \Lib\createShipments
      */
     public function setAuthData($authData)
     {
@@ -53,7 +53,7 @@ class createShipments
 
     /**
      * @param ArrayOfShipmentfulldata $shipments
-     * @return \DhlWsdlClass\createShipments
+     * @return \Lib\createShipments
      */
     public function setShipments($shipments)
     {

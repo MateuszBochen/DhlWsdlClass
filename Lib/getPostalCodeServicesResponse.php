@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class getPostalCodeServicesResponse
 {
@@ -28,7 +28,7 @@ class getPostalCodeServicesResponse
 
     /**
      * @param PostalCodeServicesResponse $getPostalCodeServicesResult
-     * @return \DhlWsdlClass\getPostalCodeServicesResponse
+     * @return \Lib\getPostalCodeServicesResponse
      */
     public function setGetPostalCodeServicesResult($getPostalCodeServicesResult)
     {

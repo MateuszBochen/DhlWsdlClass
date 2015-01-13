@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class ItemToPrint
 {
@@ -31,7 +31,7 @@ class ItemToPrint
 
     /**
      * @param string $labelType
-     * @return \DhlWsdlClass\ItemToPrint
+     * @return \Lib\ItemToPrint
      */
     public function setLabelType($labelType)
     {
@@ -49,7 +49,7 @@ class ItemToPrint
 
     /**
      * @param string $shipmentId
-     * @return \DhlWsdlClass\ItemToPrint
+     * @return \Lib\ItemToPrint
      */
     public function setShipmentId($shipmentId)
     {

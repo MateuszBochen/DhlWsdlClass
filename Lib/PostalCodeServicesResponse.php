@@ -1,6 +1,6 @@
 <?php
 
-namespace DhlWsdlClass;
+namespace Lib;
 
 class PostalCodeServicesResponse
 {
@@ -66,7 +66,7 @@ class PostalCodeServicesResponse
 
     /**
      * @param boolean $domesticExpress9
-     * @return \DhlWsdlClass\PostalCodeServicesResponse
+     * @return \Lib\PostalCodeServicesResponse
      */
     public function setDomesticExpress9($domesticExpress9)
     {
@@ -84,7 +84,7 @@ class PostalCodeServicesResponse
 
     /**
      * @param boolean $domesticExpress12
-     * @return \DhlWsdlClass\PostalCodeServicesResponse
+     * @return \Lib\PostalCodeServicesResponse
      */
     public function setDomesticExpress12($domesticExpress12)
     {
@@ -102,7 +102,7 @@ class PostalCodeServicesResponse
 
     /**
      * @param boolean $deliveryEvening
-     * @return \DhlWsdlClass\PostalCodeServicesResponse
+     * @return \Lib\PostalCodeServicesResponse
      */
     public function setDeliveryEvening($deliveryEvening)
     {
@@ -120,7 +120,7 @@ class PostalCodeServicesResponse
 
     /**
      * @param boolean $pickupOnSaturday
-     * @return \DhlWsdlClass\PostalCodeServicesResponse
+     * @return \Lib\PostalCodeServicesResponse
      */
     public function setPickupOnSaturday($pickupOnSaturday)
     {
@@ -138,7 +138,7 @@ class PostalCodeServicesResponse
 
     /**
      * @param boolean $deliverySaturday
-     * @return \DhlWsdlClass\PostalCodeServicesResponse
+     * @return \Lib\PostalCodeServicesResponse
      */
     public function setDeliverySaturday($deliverySaturday)
     {
@@ -156,7 +156,7 @@ class PostalCodeServicesResponse
 
     /**
      * @param string $exPickupFrom
-     * @return \DhlWsdlClass\PostalCodeServicesResponse
+     * @return \Lib\PostalCodeServicesResponse
      */
     public function setExPickupFrom($exPickupFrom)
     {
@@ -174,7 +174,7 @@ class PostalCodeServicesResponse
 
     /**
      * @param string $exPickupTo
-     * @return \DhlWsdlClass\PostalCodeServicesResponse
+     * @return \Lib\PostalCodeServicesResponse
      */
     public function setExPickupTo($exPickupTo)
     {
@@ -192,7 +192,7 @@ class PostalCodeServicesResponse
 
     /**
      * @param string $drPickupFrom
-     * @return \DhlWsdlClass\PostalCodeServicesResponse
+     * @return \Lib\PostalCodeServicesResponse
      */
     public function setDrPickupFrom($drPickupFrom)
     {
@@ -210,7 +210,7 @@ class PostalCodeServicesResponse
 
     /**
      * @param string $drPickupTo
-     * @return \DhlWsdlClass\PostalCodeServicesResponse
+     * @return \Lib\PostalCodeServicesResponse
      */
     public function setDrPickupTo($drPickupTo)
     {
