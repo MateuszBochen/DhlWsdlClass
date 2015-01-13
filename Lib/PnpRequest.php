@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class PnpRequest
 {
@@ -36,7 +36,7 @@ class PnpRequest
 
     /**
      * @param AuthData $authData
-     * @return \Lib\PnpRequest
+     * @return \DhlWsdlClass\Lib\PnpRequest
      */
     public function setAuthData($authData)
     {
@@ -54,7 +54,7 @@ class PnpRequest
 
     /**
      * @param string $date
-     * @return \Lib\PnpRequest
+     * @return \DhlWsdlClass\Lib\PnpRequest
      */
     public function setDate($date)
     {
@@ -72,7 +72,7 @@ class PnpRequest
 
     /**
      * @param string $type
-     * @return \Lib\PnpRequest
+     * @return \DhlWsdlClass\Lib\PnpRequest
      */
     public function setType($type)
     {

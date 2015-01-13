@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class getVersionResponse
 {
@@ -28,7 +28,7 @@ class getVersionResponse
 
     /**
      * @param string $getVersionResult
-     * @return \Lib\getVersionResponse
+     * @return \DhlWsdlClass\Lib\getVersionResponse
      */
     public function setGetVersionResult($getVersionResult)
     {

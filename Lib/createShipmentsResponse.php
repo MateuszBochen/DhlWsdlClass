@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class createShipmentsResponse
 {
@@ -28,7 +28,7 @@ class createShipmentsResponse
 
     /**
      * @param ArrayOfShipmentbasicdata $createShipmentsResult
-     * @return \Lib\createShipmentsResponse
+     * @return \DhlWsdlClass\Lib\createShipmentsResponse
      */
     public function setCreateShipmentsResult($createShipmentsResult)
     {

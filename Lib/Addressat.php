@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class Addressat
 {
@@ -36,7 +36,7 @@ class Addressat
 
     /**
      * @param PreavisoContact $preaviso
-     * @return \Lib\Addressat
+     * @return \DhlWsdlClass\Lib\Addressat
      */
     public function setPreaviso($preaviso)
     {
@@ -54,7 +54,7 @@ class Addressat
 
     /**
      * @param PreavisoContact $contact
-     * @return \Lib\Addressat
+     * @return \DhlWsdlClass\Lib\Addressat
      */
     public function setContact($contact)
     {
@@ -72,7 +72,7 @@ class Addressat
 
     /**
      * @param Address $address
-     * @return \Lib\Addressat
+     * @return \DhlWsdlClass\Lib\Addressat
      */
     public function setAddress($address)
     {

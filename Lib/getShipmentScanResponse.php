@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class getShipmentScanResponse
 {
@@ -28,7 +28,7 @@ class getShipmentScanResponse
 
     /**
      * @param ScanToPrintResponse $getShipmentScanResult
-     * @return \Lib\getShipmentScanResponse
+     * @return \DhlWsdlClass\Lib\getShipmentScanResponse
      */
     public function setGetShipmentScanResult($getShipmentScanResult)
     {

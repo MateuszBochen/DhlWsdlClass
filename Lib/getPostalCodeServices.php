@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class getPostalCodeServices
 {
@@ -42,7 +42,7 @@ class getPostalCodeServices
 
     /**
      * @param AuthData $authData
-     * @return \Lib\getPostalCodeServices
+     * @return \DhlWsdlClass\Lib\getPostalCodeServices
      */
     public function setAuthData($authData)
     {
@@ -60,7 +60,7 @@ class getPostalCodeServices
 
     /**
      * @param string $postCode
-     * @return \Lib\getPostalCodeServices
+     * @return \DhlWsdlClass\Lib\getPostalCodeServices
      */
     public function setPostCode($postCode)
     {
@@ -78,7 +78,7 @@ class getPostalCodeServices
 
     /**
      * @param string $pickupDate
-     * @return \Lib\getPostalCodeServices
+     * @return \DhlWsdlClass\Lib\getPostalCodeServices
      */
     public function setPickupDate($pickupDate)
     {

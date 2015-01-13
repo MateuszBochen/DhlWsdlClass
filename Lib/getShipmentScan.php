@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class getShipmentScan
 {
@@ -35,7 +35,7 @@ class getShipmentScan
 
     /**
      * @param AuthData $authData
-     * @return \Lib\getShipmentScan
+     * @return \DhlWsdlClass\Lib\getShipmentScan
      */
     public function setAuthData($authData)
     {
@@ -53,7 +53,7 @@ class getShipmentScan
 
     /**
      * @param string $shipmentId
-     * @return \Lib\getShipmentScan
+     * @return \DhlWsdlClass\Lib\getShipmentScan
      */
     public function setShipmentId($shipmentId)
     {

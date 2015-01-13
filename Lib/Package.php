@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class Package
 {
@@ -66,7 +66,7 @@ class Package
 
     /**
      * @param string $type
-     * @return \Lib\Package
+     * @return \DhlWsdlClass\Lib\Package
      */
     public function setType($type)
     {
@@ -84,7 +84,7 @@ class Package
 
     /**
      * @param boolean $euroReturn
-     * @return \Lib\Package
+     * @return \DhlWsdlClass\Lib\Package
      */
     public function setEuroReturn($euroReturn)
     {
@@ -102,7 +102,7 @@ class Package
 
     /**
      * @param int $weight
-     * @return \Lib\Package
+     * @return \DhlWsdlClass\Lib\Package
      */
     public function setWeight($weight)
     {
@@ -120,7 +120,7 @@ class Package
 
     /**
      * @param int $width
-     * @return \Lib\Package
+     * @return \DhlWsdlClass\Lib\Package
      */
     public function setWidth($width)
     {
@@ -138,7 +138,7 @@ class Package
 
     /**
      * @param int $height
-     * @return \Lib\Package
+     * @return \DhlWsdlClass\Lib\Package
      */
     public function setHeight($height)
     {
@@ -156,7 +156,7 @@ class Package
 
     /**
      * @param int $length
-     * @return \Lib\Package
+     * @return \DhlWsdlClass\Lib\Package
      */
     public function setLength($length)
     {
@@ -174,7 +174,7 @@ class Package
 
     /**
      * @param int $quantity
-     * @return \Lib\Package
+     * @return \DhlWsdlClass\Lib\Package
      */
     public function setQuantity($quantity)
     {
@@ -192,7 +192,7 @@ class Package
 
     /**
      * @param boolean $nonStandard
-     * @return \Lib\Package
+     * @return \DhlWsdlClass\Lib\Package
      */
     public function setNonStandard($nonStandard)
     {
@@ -210,7 +210,7 @@ class Package
 
     /**
      * @param string $blpPieceId
-     * @return \Lib\Package
+     * @return \DhlWsdlClass\Lib\Package
      */
     public function setBlpPieceId($blpPieceId)
     {

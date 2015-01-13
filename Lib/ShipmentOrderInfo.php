@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class ShipmentOrderInfo
 {
@@ -46,7 +46,7 @@ class ShipmentOrderInfo
 
     /**
      * @param AddressData $shipper
-     * @return \Lib\ShipmentOrderInfo
+     * @return \DhlWsdlClass\Lib\ShipmentOrderInfo
      */
     public function setShipper($shipper)
     {
@@ -64,7 +64,7 @@ class ShipmentOrderInfo
 
     /**
      * @param int $numberOfExPieces
-     * @return \Lib\ShipmentOrderInfo
+     * @return \DhlWsdlClass\Lib\ShipmentOrderInfo
      */
     public function setNumberOfExPieces($numberOfExPieces)
     {
@@ -82,7 +82,7 @@ class ShipmentOrderInfo
 
     /**
      * @param int $numberOfDrPieces
-     * @return \Lib\ShipmentOrderInfo
+     * @return \DhlWsdlClass\Lib\ShipmentOrderInfo
      */
     public function setNumberOfDrPieces($numberOfDrPieces)
     {
@@ -100,7 +100,7 @@ class ShipmentOrderInfo
 
     /**
      * @param int $totalWeight
-     * @return \Lib\ShipmentOrderInfo
+     * @return \DhlWsdlClass\Lib\ShipmentOrderInfo
      */
     public function setTotalWeight($totalWeight)
     {
@@ -118,7 +118,7 @@ class ShipmentOrderInfo
 
     /**
      * @param int $heaviestPieceWeight
-     * @return \Lib\ShipmentOrderInfo
+     * @return \DhlWsdlClass\Lib\ShipmentOrderInfo
      */
     public function setHeaviestPieceWeight($heaviestPieceWeight)
     {

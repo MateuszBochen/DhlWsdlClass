@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class Ship
 {
@@ -36,7 +36,7 @@ class Ship
 
     /**
      * @param Addressat $shipper
-     * @return \Lib\Ship
+     * @return \DhlWsdlClass\Lib\Ship
      */
     public function setShipper($shipper)
     {
@@ -54,7 +54,7 @@ class Ship
 
     /**
      * @param ReceiverAddressat $receiver
-     * @return \Lib\Ship
+     * @return \DhlWsdlClass\Lib\Ship
      */
     public function setReceiver($receiver)
     {
@@ -72,7 +72,7 @@ class Ship
 
     /**
      * @param NeighbourAddress $neighbour
-     * @return \Lib\Ship
+     * @return \DhlWsdlClass\Lib\Ship
      */
     public function setNeighbour($neighbour)
     {

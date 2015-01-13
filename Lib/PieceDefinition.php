@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class PieceDefinition
 {
@@ -66,7 +66,7 @@ class PieceDefinition
 
     /**
      * @param string $type
-     * @return \Lib\PieceDefinition
+     * @return \DhlWsdlClass\Lib\PieceDefinition
      */
     public function setType($type)
     {
@@ -84,7 +84,7 @@ class PieceDefinition
 
     /**
      * @param int $width
-     * @return \Lib\PieceDefinition
+     * @return \DhlWsdlClass\Lib\PieceDefinition
      */
     public function setWidth($width)
     {
@@ -102,7 +102,7 @@ class PieceDefinition
 
     /**
      * @param int $height
-     * @return \Lib\PieceDefinition
+     * @return \DhlWsdlClass\Lib\PieceDefinition
      */
     public function setHeight($height)
     {
@@ -120,7 +120,7 @@ class PieceDefinition
 
     /**
      * @param int $length
-     * @return \Lib\PieceDefinition
+     * @return \DhlWsdlClass\Lib\PieceDefinition
      */
     public function setLength($length)
     {
@@ -138,7 +138,7 @@ class PieceDefinition
 
     /**
      * @param int $weight
-     * @return \Lib\PieceDefinition
+     * @return \DhlWsdlClass\Lib\PieceDefinition
      */
     public function setWeight($weight)
     {
@@ -156,7 +156,7 @@ class PieceDefinition
 
     /**
      * @param int $quantity
-     * @return \Lib\PieceDefinition
+     * @return \DhlWsdlClass\Lib\PieceDefinition
      */
     public function setQuantity($quantity)
     {
@@ -174,7 +174,7 @@ class PieceDefinition
 
     /**
      * @param boolean $nonStandard
-     * @return \Lib\PieceDefinition
+     * @return \DhlWsdlClass\Lib\PieceDefinition
      */
     public function setNonStandard($nonStandard)
     {
@@ -192,7 +192,7 @@ class PieceDefinition
 
     /**
      * @param string $blpPieceId
-     * @return \Lib\PieceDefinition
+     * @return \DhlWsdlClass\Lib\PieceDefinition
      */
     public function setBlpPieceId($blpPieceId)
     {
@@ -210,7 +210,7 @@ class PieceDefinition
 
     /**
      * @param boolean $euroReturn
-     * @return \Lib\PieceDefinition
+     * @return \DhlWsdlClass\Lib\PieceDefinition
      */
     public function setEuroReturn($euroReturn)
     {

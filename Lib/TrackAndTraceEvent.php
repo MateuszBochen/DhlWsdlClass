@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class TrackAndTraceEvent
 {
@@ -41,7 +41,7 @@ class TrackAndTraceEvent
 
     /**
      * @param string $status
-     * @return \Lib\TrackAndTraceEvent
+     * @return \DhlWsdlClass\Lib\TrackAndTraceEvent
      */
     public function setStatus($status)
     {
@@ -59,7 +59,7 @@ class TrackAndTraceEvent
 
     /**
      * @param string $description
-     * @return \Lib\TrackAndTraceEvent
+     * @return \DhlWsdlClass\Lib\TrackAndTraceEvent
      */
     public function setDescription($description)
     {
@@ -77,7 +77,7 @@ class TrackAndTraceEvent
 
     /**
      * @param string $terminal
-     * @return \Lib\TrackAndTraceEvent
+     * @return \DhlWsdlClass\Lib\TrackAndTraceEvent
      */
     public function setTerminal($terminal)
     {
@@ -95,7 +95,7 @@ class TrackAndTraceEvent
 
     /**
      * @param string $timestamp
-     * @return \Lib\TrackAndTraceEvent
+     * @return \DhlWsdlClass\Lib\TrackAndTraceEvent
      */
     public function setTimestamp($timestamp)
     {

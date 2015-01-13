@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class ScanToPrintResponse
 {
@@ -31,7 +31,7 @@ class ScanToPrintResponse
 
     /**
      * @param string $scanData
-     * @return \Lib\ScanToPrintResponse
+     * @return \DhlWsdlClass\Lib\ScanToPrintResponse
      */
     public function setScanData($scanData)
     {
@@ -49,7 +49,7 @@ class ScanToPrintResponse
 
     /**
      * @param string $scanMimeType
-     * @return \Lib\ScanToPrintResponse
+     * @return \DhlWsdlClass\Lib\ScanToPrintResponse
      */
     public function setScanMimeType($scanMimeType)
     {

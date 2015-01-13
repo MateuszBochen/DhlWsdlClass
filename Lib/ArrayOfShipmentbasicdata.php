@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class ArrayOfShipmentbasicdata
 {
@@ -28,7 +28,7 @@ class ArrayOfShipmentbasicdata
 
     /**
      * @param ShipmentBasicData[] $item
-     * @return \Lib\ArrayOfShipmentbasicdata
+     * @return \DhlWsdlClass\Lib\ArrayOfShipmentbasicdata
      */
     public function setItem(array $item)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class cancelCourierBookingResponse
 {
@@ -28,7 +28,7 @@ class cancelCourierBookingResponse
 
     /**
      * @param ArrayOfDeletenotification $cancelCourierBookingResult
-     * @return \Lib\cancelCourierBookingResponse
+     * @return \DhlWsdlClass\Lib\cancelCourierBookingResponse
      */
     public function setCancelCourierBookingResult($cancelCourierBookingResult)
     {

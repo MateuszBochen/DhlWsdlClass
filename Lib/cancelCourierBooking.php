@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class cancelCourierBooking
 {
@@ -35,7 +35,7 @@ class cancelCourierBooking
 
     /**
      * @param AuthData $authData
-     * @return \Lib\cancelCourierBooking
+     * @return \DhlWsdlClass\Lib\cancelCourierBooking
      */
     public function setAuthData($authData)
     {
@@ -53,7 +53,7 @@ class cancelCourierBooking
 
     /**
      * @param ArrayOfString $orders
-     * @return \Lib\cancelCourierBooking
+     * @return \DhlWsdlClass\Lib\cancelCourierBooking
      */
     public function setOrders($orders)
     {

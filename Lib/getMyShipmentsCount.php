@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class getMyShipmentsCount
 {
@@ -42,7 +42,7 @@ class getMyShipmentsCount
 
     /**
      * @param AuthData $authData
-     * @return \Lib\getMyShipmentsCount
+     * @return \DhlWsdlClass\Lib\getMyShipmentsCount
      */
     public function setAuthData($authData)
     {
@@ -60,7 +60,7 @@ class getMyShipmentsCount
 
     /**
      * @param string $createdFrom
-     * @return \Lib\getMyShipmentsCount
+     * @return \DhlWsdlClass\Lib\getMyShipmentsCount
      */
     public function setCreatedFrom($createdFrom)
     {
@@ -78,7 +78,7 @@ class getMyShipmentsCount
 
     /**
      * @param string $createdTo
-     * @return \Lib\getMyShipmentsCount
+     * @return \DhlWsdlClass\Lib\getMyShipmentsCount
      */
     public function setCreatedTo($createdTo)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class CreateShipmentResponse
 {
@@ -46,7 +46,7 @@ class CreateShipmentResponse
 
     /**
      * @param string $shipmentNotificationNumber
-     * @return \Lib\CreateShipmentResponse
+     * @return \DhlWsdlClass\Lib\CreateShipmentResponse
      */
     public function setShipmentNotificationNumber($shipmentNotificationNumber)
     {
@@ -64,7 +64,7 @@ class CreateShipmentResponse
 
     /**
      * @param string $shipmentTrackingNumber
-     * @return \Lib\CreateShipmentResponse
+     * @return \DhlWsdlClass\Lib\CreateShipmentResponse
      */
     public function setShipmentTrackingNumber($shipmentTrackingNumber)
     {
@@ -82,7 +82,7 @@ class CreateShipmentResponse
 
     /**
      * @param string $packagesTrackingNumbers
-     * @return \Lib\CreateShipmentResponse
+     * @return \DhlWsdlClass\Lib\CreateShipmentResponse
      */
     public function setPackagesTrackingNumbers($packagesTrackingNumbers)
     {
@@ -100,7 +100,7 @@ class CreateShipmentResponse
 
     /**
      * @param string $dispatchNotificationNumber
-     * @return \Lib\CreateShipmentResponse
+     * @return \DhlWsdlClass\Lib\CreateShipmentResponse
      */
     public function setDispatchNotificationNumber($dispatchNotificationNumber)
     {
@@ -118,7 +118,7 @@ class CreateShipmentResponse
 
     /**
      * @param Label $label
-     * @return \Lib\CreateShipmentResponse
+     * @return \DhlWsdlClass\Lib\CreateShipmentResponse
      */
     public function setLabel($label)
     {

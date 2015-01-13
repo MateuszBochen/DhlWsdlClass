@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class ArrayOfTrackandtraceevent
 {
@@ -28,7 +28,7 @@ class ArrayOfTrackandtraceevent
 
     /**
      * @param TrackAndTraceEvent[] $item
-     * @return \Lib\ArrayOfTrackandtraceevent
+     * @return \DhlWsdlClass\Lib\ArrayOfTrackandtraceevent
      */
     public function setItem(array $item)
     {

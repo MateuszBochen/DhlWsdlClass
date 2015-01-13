@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class TrackAndTraceResponse
 {
@@ -36,7 +36,7 @@ class TrackAndTraceResponse
 
     /**
      * @param string $shipmentId
-     * @return \Lib\TrackAndTraceResponse
+     * @return \DhlWsdlClass\Lib\TrackAndTraceResponse
      */
     public function setShipmentId($shipmentId)
     {
@@ -54,7 +54,7 @@ class TrackAndTraceResponse
 
     /**
      * @param string $receivedBy
-     * @return \Lib\TrackAndTraceResponse
+     * @return \DhlWsdlClass\Lib\TrackAndTraceResponse
      */
     public function setReceivedBy($receivedBy)
     {
@@ -72,7 +72,7 @@ class TrackAndTraceResponse
 
     /**
      * @param ArrayOfTrackandtraceevent $events
-     * @return \Lib\TrackAndTraceResponse
+     * @return \DhlWsdlClass\Lib\TrackAndTraceResponse
      */
     public function setEvents($events)
     {

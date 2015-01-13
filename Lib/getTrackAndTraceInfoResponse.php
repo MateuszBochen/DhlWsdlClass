@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class getTrackAndTraceInfoResponse
 {
@@ -28,7 +28,7 @@ class getTrackAndTraceInfoResponse
 
     /**
      * @param TrackAndTraceResponse $getTrackAndTraceInfoResult
-     * @return \Lib\getTrackAndTraceInfoResponse
+     * @return \DhlWsdlClass\Lib\getTrackAndTraceInfoResponse
      */
     public function setGetTrackAndTraceInfoResult($getTrackAndTraceInfoResult)
     {

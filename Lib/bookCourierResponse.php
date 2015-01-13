@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class bookCourierResponse
 {
@@ -28,7 +28,7 @@ class bookCourierResponse
 
     /**
      * @param ArrayOfString $bookCourierResult
-     * @return \Lib\bookCourierResponse
+     * @return \DhlWsdlClass\Lib\bookCourierResponse
      */
     public function setBookCourierResult($bookCourierResult)
     {

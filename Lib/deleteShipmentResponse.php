@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class deleteShipmentResponse
 {
@@ -28,7 +28,7 @@ class deleteShipmentResponse
 
     /**
      * @param DeleteShipmentResponse $deleteShipmentResult
-     * @return \Lib\deleteShipmentResponse
+     * @return \DhlWsdlClass\Lib\deleteShipmentResponse
      */
     public function setDeleteShipmentResult($deleteShipmentResult)
     {

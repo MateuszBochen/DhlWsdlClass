@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class NeighbourAddress
 {
@@ -61,7 +61,7 @@ class NeighbourAddress
 
     /**
      * @param string $name
-     * @return \Lib\NeighbourAddress
+     * @return \DhlWsdlClass\Lib\NeighbourAddress
      */
     public function setName($name)
     {
@@ -79,7 +79,7 @@ class NeighbourAddress
 
     /**
      * @param string $postalCode
-     * @return \Lib\NeighbourAddress
+     * @return \DhlWsdlClass\Lib\NeighbourAddress
      */
     public function setPostalCode($postalCode)
     {
@@ -97,7 +97,7 @@ class NeighbourAddress
 
     /**
      * @param string $city
-     * @return \Lib\NeighbourAddress
+     * @return \DhlWsdlClass\Lib\NeighbourAddress
      */
     public function setCity($city)
     {
@@ -115,7 +115,7 @@ class NeighbourAddress
 
     /**
      * @param string $street
-     * @return \Lib\NeighbourAddress
+     * @return \DhlWsdlClass\Lib\NeighbourAddress
      */
     public function setStreet($street)
     {
@@ -133,7 +133,7 @@ class NeighbourAddress
 
     /**
      * @param string $houseNumber
-     * @return \Lib\NeighbourAddress
+     * @return \DhlWsdlClass\Lib\NeighbourAddress
      */
     public function setHouseNumber($houseNumber)
     {
@@ -151,7 +151,7 @@ class NeighbourAddress
 
     /**
      * @param string $apartmentNumber
-     * @return \Lib\NeighbourAddress
+     * @return \DhlWsdlClass\Lib\NeighbourAddress
      */
     public function setApartmentNumber($apartmentNumber)
     {
@@ -169,7 +169,7 @@ class NeighbourAddress
 
     /**
      * @param string $contactPhone
-     * @return \Lib\NeighbourAddress
+     * @return \DhlWsdlClass\Lib\NeighbourAddress
      */
     public function setContactPhone($contactPhone)
     {
@@ -187,7 +187,7 @@ class NeighbourAddress
 
     /**
      * @param string $contactEmail
-     * @return \Lib\NeighbourAddress
+     * @return \DhlWsdlClass\Lib\NeighbourAddress
      */
     public function setContactEmail($contactEmail)
     {

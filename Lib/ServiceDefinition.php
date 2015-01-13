@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace DhlWsdlClass\Lib;
 
 class ServiceDefinition
 {
@@ -106,7 +106,7 @@ class ServiceDefinition
 
     /**
      * @param string $product
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setProduct($product)
     {
@@ -124,7 +124,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $deliveryEvening
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setDeliveryEvening($deliveryEvening)
     {
@@ -142,7 +142,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $deliveryOnSaturday
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setDeliveryOnSaturday($deliveryOnSaturday)
     {
@@ -160,7 +160,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $pickupOnSaturday
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setPickupOnSaturday($pickupOnSaturday)
     {
@@ -178,7 +178,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $collectOnDelivery
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setCollectOnDelivery($collectOnDelivery)
     {
@@ -196,7 +196,7 @@ class ServiceDefinition
 
     /**
      * @param float $collectOnDeliveryValue
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setCollectOnDeliveryValue($collectOnDeliveryValue)
     {
@@ -214,7 +214,7 @@ class ServiceDefinition
 
     /**
      * @param string $collectOnDeliveryForm
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setCollectOnDeliveryForm($collectOnDeliveryForm)
     {
@@ -232,7 +232,7 @@ class ServiceDefinition
 
     /**
      * @param string $collectOnDeliveryReference
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setCollectOnDeliveryReference($collectOnDeliveryReference)
     {
@@ -250,7 +250,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $insurance
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setInsurance($insurance)
     {
@@ -268,7 +268,7 @@ class ServiceDefinition
 
     /**
      * @param float $insuranceValue
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setInsuranceValue($insuranceValue)
     {
@@ -286,7 +286,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $returnOnDelivery
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setReturnOnDelivery($returnOnDelivery)
     {
@@ -304,7 +304,7 @@ class ServiceDefinition
 
     /**
      * @param string $returnOnDeliveryReference
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setReturnOnDeliveryReference($returnOnDeliveryReference)
     {
@@ -322,7 +322,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $proofOfDelivery
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setProofOfDelivery($proofOfDelivery)
     {
@@ -340,7 +340,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $selfCollect
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setSelfCollect($selfCollect)
     {
@@ -358,7 +358,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $predeliveryInformation
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setPredeliveryInformation($predeliveryInformation)
     {
@@ -376,7 +376,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $deliveryToNeighbour
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setDeliveryToNeighbour($deliveryToNeighbour)
     {
@@ -394,7 +394,7 @@ class ServiceDefinition
 
     /**
      * @param boolean $preaviso
-     * @return \Lib\ServiceDefinition
+     * @return \DhlWsdlClass\Lib\ServiceDefinition
      */
     public function setPreaviso($preaviso)
     {
